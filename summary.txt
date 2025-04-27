@@ -1,0 +1,25 @@
+I started by adjusting only the number of checkers without changing anything else. With the rest of the initial condtions 
+unchanged, increasing the number of checkers past five had no change on the shoppers wait time, however, this drastically 
+increased the idle time. By decreasing the checkers, I noticed that the wait time did not increase until i got from five 
+to two checkers. Three checkers had the same wait time as five, but nearly half the idle time.
+
+Increasing the max number of items selected by the shopper significantly increases the wait time from the intial conditions. 
+I think this is just due to the fact that it takes more time to check those items out, I don't think it affects the line queues
+all that much. I increased the max of the item range from 20 to 100. After doing this, I noticed increasing the number of
+checkers in response didn't affect the wait time. Therefore, the amount of items range doesn't have much of an affect on waiting
+in line, only on how long it takes to get checked out. 
+
+I then increased the rate of new customers from one ever two minuted to one every thirty seconds. After changing the number of 
+checkers in response, I saw that increasing the number of checkers decreasing the wait time slightly until I got up to seven 
+checkers. The average wait time was only about 10 seconds faster than with five checkers though.By increasing the new shopper 
+to one every 12 seconds, the average wait time increased significantly to an hour. It took 150 checkers to get it back down to a 
+couple minutes. If the rate of new customers increases ten fold (one ever 2 min, to one every .2 min), as it might at peak
+busyness, then the checkers need to be incerased to 8 to bring back wait time to a managable number.
+
+Adjusting the shopping time makes very little difference.
+
+Summary: 
+
+By adjusting the values of the simulation considering realistic conditions, the ideal number of checkers would be in the 3-7
+range, ideally 4. However, if the rate of new shoppers increases dramatically, as happens with real grocery stores, the number
+of checkers needs to be increased to the 7-10 range, ideally 8.
